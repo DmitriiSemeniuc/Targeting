@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Targeting</string>
+    <string name="target_specifics">Target Specifics</string>
+    <string name="campaigns">Campaigns</string>
+    <string name="target">Target</string>
+    <string name="campaign">Campaign</string>
+    <string name="channels">Channels</string>
+    <string name="target_button_text">Next</string>
+    <string name="campaign_button_text">Review</string>
+    <string name="reset"><u>Reset</u></string>
+    <string name="send">Send</string>
+    <string name="app">App</string>
+    <string name="monthly_fee">Monthly fee:</string>
+    <string name="campaign_details">Campaign Details</string>
+    <string name="channel">Channel</string>
+</resources>
