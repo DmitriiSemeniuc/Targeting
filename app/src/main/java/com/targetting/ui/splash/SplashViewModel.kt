@@ -20,7 +20,6 @@ class SplashViewModel @Inject constructor(application: Application) :
     fun goToTargetDelayed() {
         viewModelScope.launch {
             delay(2000)
-            goToTarget.postValue(Unit)
             withContext(Dispatchers.Main) {
                 goToTarget.postValue(Unit)
             }
