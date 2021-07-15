@@ -17,7 +17,6 @@ class TargetAdapter(val data: List<Target>, val listener: OnSelectListener?) :
     RecyclerView.Adapter<TargetAdapter.ViewHolder>() {
 
     interface OnSelectListener {
-
         fun onSelect(selected: Boolean)
     }
 

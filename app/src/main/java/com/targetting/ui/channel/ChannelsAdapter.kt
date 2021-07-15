@@ -24,7 +24,6 @@ class ChannelsAdapter(
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
         private val tvChannel: TextView = itemView.findViewById(R.id.tvChannel)
-        private val cvContainer: View = itemView.findViewById(R.id.cvContainer)
         private val cgTargets: ChipGroup = itemView.findViewById(R.id.cgTargets)
         private val itemLayout: View = itemView.findViewById(R.id.clItem)
 

@@ -76,11 +76,12 @@ class CampaignAdapter(
                     if (adapterPosition == selected) {
                         selected = null
                         listener?.onSelect(null)
+                        notifyItemChanged(adapterPosition)
                     } else {
                         selected = adapterPosition
                         listener?.onSelect(item)
+                        notifyDataSetChanged()
                     }
-                    notifyItemChanged(adapterPosition)
                 }
             }
         }

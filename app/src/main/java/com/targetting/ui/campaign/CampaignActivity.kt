@@ -76,10 +76,6 @@ class CampaignActivity : AppCompatActivity() {
     }
 
     private fun setOnClickListener() {
-        binding.btnReset.setOnClickListenerThrottled {
-            campaignAdapter?.reset()
-            enableActionButton(false)
-        }
         binding.btnReview.setOnClickListenerThrottled {
             campaign?.let {
                 reviewCampaign(it, channel!!)
